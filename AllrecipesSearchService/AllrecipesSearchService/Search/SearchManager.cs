@@ -9,7 +9,15 @@ namespace AllrecipesSearchService.Search
 
         public Results Search(RecipeQuery recipeQuery)
         {
-            throw new NotImplementedException();
+            Results results = null;
+
+            // create query
+
+            // query
+
+            // create results
+
+            return results;
         }
     }
 }
