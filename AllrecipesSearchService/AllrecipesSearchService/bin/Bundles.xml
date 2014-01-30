@@ -1,0 +1,564 @@
+﻿<bundles>
+    <bundle name="main-site">
+      <include file="jQuery\defineAR.js"/>
+      <include file="lib\jQuery\jquery-1.8.2.js"/>
+      <include file="..\core\library\js\AdDfpTags.js" />
+      <include file="lib\json2\json2.js"/>
+      <include file="lib\JsfIoc\JsfIoc.js"/>
+      <include file="client.js"/>
+      <include file="..\mobile\allrecipes\global\js\encoder.js"/>
+      <include file="jQuery\main.js"/>
+      <include file="Controls\FeaturedVideosInline.js"/>
+      <include file="Controls\Video.js"/>
+      <include file="jQuery\AnalyticsProperties.js"/>
+      <include file="jQuery\AnalyticsMethods.js"/>
+      <include file="Utilities\AdSuppress.js"/>
+      <include file="Utilities\Logging.js"/>
+      <include file="Utilities\BaseN.js"/>
+      <include file="Utilities\ClientUrlProvider.js"/>
+      <include file="Utilities\ClientUrlUtils.js"/>
+      <include file="Utilities\DialogLauncher.js"/>
+      <include file="Utilities\SitePinning.js"/>      
+      <include file="jQuery\Membership.js"/>
+      <include file="jQuery\TabBlocker.js"/>
+      <include file="jQuery\AspxDialog.js"/>
+      <include file="lib\jQuery-textTruncate\jquery.textTruncate.js"/>
+      <include file="..\core\review\js\stars.js" />
+      <include file="lib\jqote2\jquery.jqote2.js"/>
+      <include file="Utilities\Ads.js"/>
+      <include file="..\core\library\js\Utilities.js"/>
+      <include file="..\core\recipe\detail\js\ReviewsTop.js"/>
+      <include file="..\core\recipe\detail\js\PhotoUploadHandler.js" />
+      <include file="..\core\nav\js\MainNav.js"/>
+      <include file="..\core\nav\js\PredictiveSearch.js"/>
+      <include file="..\core\nav\js\Search.js"/>
+      <include file="..\core\logoscroller\js\LogoScroller.js" />
+    </bundle>
+  <bundle name="main-site-bottom">
+    <include file="..\core\library\js\pub-sub.js"></include>
+    <include file="lib\jquery-lazyload\jquery.lazyload.js"/>
+    <include file="lib\slides.jquery\slides.jquery.js"/>
+    <include file="lib\jquery-carousel\jquery-carousel.js"/>
+    <include file="lib\jquery-carousel\jquery-carousel.autoplay.js"/>
+    <include file="lib\jquery-carousel\jquery-carousel.indexslide.js"/>
+    <include file="..\core\library\js\Click-Hover-Toggle.js" />
+    <include file="..\core\video\detail\js\DetailPage.js" />
+    <include file="..\core\library\js\pub-sub.js" />
+    <include file="..\core\library\js\foresee.js" />
+  </bundle>
+  <bundle name="main-site-css" type="css">
+    <include file="..\core\nav\css\rightrailmodules.css"/>    
+    <include file="..\core\nav\css\mainNav.css"/>
+    <include file="..\ar\foresee\v0.2\foresee-dhtml.css"/>
+  </bundle>
+    <bundle name="recipe-page-bottom">
+        <include file="lib\jQuery-lazyload\jquery.lazyload.js" />
+      <include file="..\core\recipe\detail\js\DetailPage.js" />
+      <include file="..\core\recipe\detail\js\ToolboxEvents.js" />
+    <include file="lib\slides.jquery\slides.jquery.js"/>
+      <!--new for RecipePage Redesign-->
+        <include file="..\core\library\js\Utilities.js"/>
+        <include file="..\core\library\js\Stars.js"/>
+        <include file="..\core\library\js\Reviews.js"/>
+        <include file="..\core\library\js\Nutrition.js"/>
+        <include file="..\core\recipe\detail\js\RecipeTools.js" />
+        <include file="..\core\recipe\detail\toolbar\js\Menu.js" />
+        <include file="..\core\recipe\detail\toolbar\js\RecipeBox.js" />
+        <include file="..\core\recipe\detail\toolbar\js\Save.js" />
+        <include file="..\core\recipe\detail\toolbar\js\Send.js" />
+        <include file="..\core\recipe\detail\toolbar\js\ShoppingList.js" />
+        <include file="..\core\recipe\detail\js\Ingredients.js"/>
+        <include file="..\core\recipe\detail\js\Videos.js"/>
+        <include file="..\core\recipe\detail\js\Summary.js"/>
+        <include file="..\core\recipe\detail\js\PhotoCarousel.js" />
+        <include file="..\core\recipe\detail\js\Rating.js"/>
+        <include file="..\core\recipe\detail\js\Nutrition.js"/>
+        <include file="..\core\recipe\detail\js\MoreRecipesLikeThis.js"/>
+        <include file="..\core\recipe\detail\js\MoreLikeThisByCat.js"/>
+        <include file="..\core\recipe\detail\js\ReviewsBottom.js"/>
+        <include file="..\core\recipe\detail\js\ReviewCarousel.js" />
+        <include file="..\core\recipe\detail\js\AboutThisCook.js"/>
+        <include file="..\core\recipe\detail\js\WatchThisRecipe.js"/>
+    </bundle>
+    <bundle name="recipe-page" type="css">
+        <include file="..\css2009\core.css" />
+        <include file="..\core\recipe\detail\css\layout.css"/>
+        <include file="..\core\recipe\detail\css\AboutTheCook.css"/>
+        <include file="..\core\recipe\detail\css\Buttons.css"/>
+        <include file="..\core\recipe\detail\css\Ingredients.css"/>
+        <include file="..\core\recipe\detail\css\MoreLikeThisByCat.css"/>
+        <include file="..\core\recipe\detail\css\MoreRecipesLikeThis.css"/>
+        <include file="..\core\recipe\detail\css\Nutrition.css"/>
+        <include file="..\core\recipe\detail\css\PhotoCarousel.css"/>
+        <include file="..\core\recipe\detail\css\Rating.css"/>
+        <include file="..\core\recipe\detail\css\RecipeTools.css"/>
+        <include file="..\core\recipe\detail\css\ReviewCarousel.css"/>
+        <include file="..\core\recipe\detail\css\Reviews.css"/>
+        <include file="..\core\recipe\detail\css\Servings.css"/>
+        <include file="..\core\recipe\detail\css\Summary.css"/>
+        <include file="..\core\recipe\detail\css\Videos.css"/>
+        <include file="..\core\nav\css\rightrailmodules.css"/>      
+        <include file="..\core\nav\css\mainNav.css"/>
+    </bundle>
+    <bundle name="recipe-page" type="html">
+      <include file="..\core\recipe\detail\html\MoreLikeThisByCatItem.html"></include>
+    </bundle>
+
+    <bundle name="shared-page-bottom">
+        <include file="lib\jQuery-lazyload\jquery.lazyload.js" />
+        <include file="..\core\recipe\detail\js\DetailPage.js" />
+        <include file="..\core\recipe\detail\js\ToolboxEvents.js" />
+        <include file="lib\slides.jquery\slides.jquery.js"/>
+        <include file="..\core\library\js\Utilities.js"/>
+        <include file="..\core\library\js\Stars.js"/>
+        <include file="..\core\library\js\Reviews.js"/>
+        <include file="..\core\recipe\detail\js\RecipeTools.js" />
+        <include file="..\core\recipe\detail\toolbar\js\Menu.js" />
+        <include file="..\core\recipe\detail\toolbar\js\RecipeBox.js" />
+        <include file="..\core\recipe\detail\toolbar\js\Save.js" />
+        <include file="..\core\recipe\detail\toolbar\js\Send.js" />
+        <include file="..\core\recipe\detail\toolbar\js\ShoppingList.js" />     
+        <include file="..\core\recipe\detail\js\ReviewsBottom.js"/>
+        <include file="..\core\shared\js\PhotoCarousel.js" />
+        <include file="..\core\recipe\detail\js\Summary.js"/>
+        <include file="..\core\shared\js\ReviewCarousel.js" />
+        <include file="..\core\recipe\detail\js\Rating.js"/>
+        <include file="..\core\shared\js\Status.js"/>
+    </bundle>
+
+    <bundle name="recipe-box">
+    <include file="jQuery\defineAR.js"/>
+    
+    <include file="shared-item-edit.js"/>
+    <include file="jQuery\my-submitted-recipes.js"/>
+    <include file="Controls\ARLinkButton.js"/>
+    <include file="My\RecipeBox\Folders\RBFolders.js"/>
+    <include file="My\ShoppingList\shopping-list.js"/>
+    <include file="Controls\OptionsDropdown.js"/>
+    <include file="Controls\MyMenuListItem.js"/>
+    <include file="Controls\SavedItemListItem.js"/>
+    <include file="..\core\recipe\detail\js\menudetails.js" />
+    <include file="..\core\recipe\detail\js\RecipeTools.js" />
+    <include file="..\core\recipe\detail\js\ToolboxEvents.js" />
+
+  </bundle>
+  <bundle name="recipe-box" type="html">
+    <include file="My\RecipeBox\Folders\LeftNavFolder.html" />
+    <include file="My\RecipeBox\Folders\ListViewFolder.html" />
+  </bundle>
+  <bundle name="search-page">
+    <include file="jQuery\defineAR.js"/>
+    <include file="lib\jQuery-UI\jquery-ui-1.9.2.custom.js"/>
+    <include file="Search\Search.js"/>
+    <include file="Search\NutritionSearch.js"/>
+    <include file="..\core\search\js\FeaturedSearchResult.js"/>
+    <include file="..\core\search\js\SearchAnalytics.js"/>
+  </bundle>
+  <bundle name="search-page" type="html">
+    <include file="..\core\search\html\gridviewresult.html"/>
+  </bundle>
+  <bundle name="kitchenview-page">
+    <include file="lib\jQuery-UI\jquery-ui-1.9.2.custom.js"/>
+    <include file="jQuery\defineAR.js"/>
+    <include file="Controls\RecipeSlideshow.js"/>
+    <include file="Controls\RecipeTimer.js"/>
+    <include file="Controls\FontSizeController.js"/>
+    <include file="Controls\InstructionsWidget.js"/>
+    <include file="Controls\ServingsSelector.js"/>
+    <include file="..\Sound\SoundManager\soundmanager2.js"/>
+  </bundle>
+  <bundle name="MenuCanvas">
+    <include file="jQuery\defineAR.js"/>
+    <include file="lib\jQuery-UI\jquery-ui-1.9.2.custom.js"/>
+    <include file="lib\OWL\deepCopy.js"/>
+    <include file="lib\jquery-forceredraw\jquery.forceredraw-1.0.1.js"/>
+    <include file="Utilities\jQueryExtensions.js"/>
+    <include file="Controls\OptionsDropdown.js"/>
+    <include file="canvas\AccordionController.js"/>
+    <include file="canvas\CanvasBlock.js"/>
+    <include file="canvas\CanvasBlockTitleView.js"/>
+    <include file="canvas\CanvasBlockView.js"/>
+    <include file="canvas\CanvasBlockViewTail.js"/>
+    <include file="canvas\CanvasClientService.js"/>
+    <include file="canvas\CanvasClientServiceCache.js"/>
+    <include file="canvas\CanvasState.js"/>
+    <include file="canvas\CommandHandler.js"/>
+    <include file="canvas\KitchenToolsSizingAndAccordionPositioning.js"/>
+    <include file="canvas\IntroUserExperience.js"/>
+    <include file="canvas\LinkEnabler.js"/>
+    <include file="canvas\LinkRequirements.js"/>
+    <include file="canvas\MealNutritionView.js"/>
+    <include file="canvas\MenuOptions.js"/>
+    <include file="canvas\NotificationBar.js"/>
+    <include file="canvas\ShoppingListPreview.js"/>
+    <include file="canvas\UnsavedChanges.js"/>
+    <include file="canvas\AccordionViews\RecipeListEntityView.js"/>
+    <include file="canvas\AccordionViews\FolderContentsAccordionView.js"/>
+    <include file="canvas\AccordionViews\FoldersAccordionView.js"/>
+    <include file="canvas\AccordionViews\MyRecipesSearchAccordionView.js"/>
+    <include file="canvas\AccordionViews\MyRecipesAccordionView.js"/>
+    <include file="canvas\AccordionViews\MyMenusAccordionView.js"/>
+    <include file="canvas\AccordionViews\RecipeSearchAccordionView.js"/>
+    <include file="canvas\AccordionViews\RecipeSearchResultsAccordionView.js"/>
+    <include file="canvas\DragNDrop\DragCoordinator.js"/>
+    <include file="canvas\DragNDrop\DropHandler.js"/>
+    <include file="canvas\DragNDrop\DragLocationInfo.js"/>
+    <include file="canvas\DragNDrop\DropLocationInfo.js"/>
+    <include file="canvas\DragNDrop\DropPolicy.js"/>
+    <include file="canvas\DragNDrop\HoverAdapter.js"/>
+    <include file="canvas\DragNDrop\HoverHandler.js"/>
+    <include file="canvas\Entities\Meal.js"/>
+    <include file="canvas\Entities\MealItem.js"/>
+    <include file="canvas\Entities\Menu.js"/>
+    <include file="canvas\Entities\MenuListEntry.js"/>
+    <include file="canvas\Entities\MenuSaveResult.js"/>    
+    <include file="canvas\Entities\RecipeListEntry.js"/>
+    <include file="canvas\Entities\RecipeListSearchResults.js"/>
+    <include file="canvas\Entities\Folder.js"/>
+  </bundle>
+  <bundle name="MenuCanvas" type="html">
+    <include file="canvas\CanvasBlockView.html"/>
+    <include file="canvas\CanvasBlockViewTail.html"/>
+    <include file="canvas\IntroUserExperience.html"/>
+    <include file="canvas\MealNutritionView.html"/>
+    <include file="canvas\MenuOptions.html"/>
+    <include file="canvas\ShoppingListPreview.html"/>
+    <include file="canvas\AccordionViews\RecipeListEntityView.html"/>    
+    <include file="canvas\AccordionViews\FoldersAccordionView.html"/>
+    <include file="canvas\AccordionViews\FolderContentsAccordionView.html"/>
+    <include file="canvas\AccordionViews\MyRecipesSearchAccordionView.html"/>
+    <include file="canvas\AccordionViews\MyMenusAccordionView.html"/>
+    <include file="canvas\AccordionViews\MyRecipesAccordionView.html"/>    
+    <include file="canvas\AccordionViews\RecipeSearchAccordionView.html"/>
+    <include file="canvas\AccordionViews\RecipeSearchResultsAccordionView.html"/>
+    <include file="canvas\NotificationBar.html"/>
+  </bundle>
+  <bundle name="MenuPrint">
+    <include file="MenuPrint\MenuPrintOptions.js" />
+    <include file="MenuPrint\MenuPrintSingleMeal.js" />
+    <include file="MenuPrint\MenuPrintMultipleMeal.js" />
+    <include file="MenuPrint\MenuPrintController.js" />
+    <include file="MenuPrint\MenuPrintRecipeDetails.js" />
+    <include file="MenuPrint\MenuPrintShoppingListController.js" />
+    <include file="MenuPrint\MenuPrintMenuNotes.js" />
+    <include file="MenuPrint\Entities\MenuPrintMealItemDirectionStep.js" />
+    <include file="MenuPrint\Entities\MenuPrintMealItemIngredient.js" />
+    <include file="MenuPrint\Entities\MenuPrintMealItem.js" />
+    <include file="MenuPrint\Entities\MenuPrintMealNutritionItem.js" />
+    <include file="MenuPrint\Entities\MenuPrintMeal.js" />
+    <include file="MenuPrint\Entities\MenuPrintMealTimeInfo.js" />
+    <include file="MenuPrint\Entities\MenuPrintMenu.js" />
+    <include file="MenuPrint\Entities\MenuPrintShoppingList.js" />
+    <include file="MenuPrint\Entities\MenuPrintShoppingListRecipe.js" />
+    <include file="MenuPrint\Entities\MenuPrintShoppingListAisle.js" />
+    <include file="MenuPrint\Entities\MenuPrintShoppingListGroceryItem.js" />
+  </bundle>
+  <bundle name="MenuPrint" type="html">
+    <include file="MenuPrint\MenuPrintOptions.html"/>
+    <include file="MenuPrint\MenuPrintSingleMeal.html"/>
+    <include file="MenuPrint\MenuPrintMultipleMeal.html"/>
+    <include file="MenuPrint\MenuPrintRecipeDetails.html"/>
+    <include file="MenuPrint\MenuPrintShoppingList.html"/>
+    <include file="MenuPrint\MenuPrintMenuNotes.html"/>
+  </bundle>
+  <bundle name="menutab-page">
+    <include file="Controls\FeaturedMenuSlideshow.js"/>
+  </bundle>
+  <bundle name="videohub-page">
+    <include file="Controls\Carousel.js"/>
+    <include file="Controls\VideoHub.js"/>
+  </bundle>
+  <bundle name="hub-page-bottom">
+    <include file="..\core\carousel\js\CarouselAnalytics.js"/>
+    <include file="..\core\hub\js\HubShowcase.js"/>
+    <include file="..\core\hub\js\HubGrid.js"/>
+  </bundle>
+  <bundle name="home-page-bottom">
+    <include file="..\core\carousel\js\CarouselAnalytics.js"/>
+    <include file="..\core\homepage\js\HubShowcase.js"/>
+    <include file="..\core\homepage\js\HomepageAnalytics.js"/>
+  </bundle>
+  <bundle name="landing-page">
+    <include file="lib\slides.jquery\slides.jquery.js"/>
+    <include file="lib\jquery-roundabout\RoundAbout.js"/>
+  </bundle>
+  <bundle name="CoreCSS" type="css">
+    <include file="..\core\recipe\detail\css\layout.css"/>
+  </bundle>
+  <bundle name="MobileCSS" type="css">
+    <include file="..\mobile\allrecipes\css\recipe.css" />
+    <include file="..\mobile\allrecipes\css\mdot.css" />
+    <include file="..\mobile\allrecipes\css\jquery.mobile.structure-1.2.0.min.css"></include>
+    <include file="lib\jQuery-carousel\jquery-carousel.css" />
+    <include file="..\mobile\allrecipes\css\global.css" />
+	 <include file="..\mobile\allrecipes\css\listview.css" />
+    <include file="..\mobile\allrecipes\css\shoppinglist.css" />
+    <include file="..\mobile\allrecipes\css\iconfont.css" />
+    <include file="..\mobile\allrecipes\css\video.css" />
+	 <include file="..\mobile\allrecipes\css\responsive-header.css" />
+	 <include file="..\mobile\allrecipes\css\responsive-hub-main.css" />
+	 <include file="..\mobile\allrecipes\css\responsive-account.css" />
+	 <include file="..\mobile\allrecipes\css\responsive-recipe-oftheday.css" />
+    <!--<include file="..\mobile\allrecipes\css\responsive-recipe-listview.css" />-->
+    <include file="..\mobile\allrecipes\css\responsive-recipe-detailview.css" />
+    <include file="..\mobile\allrecipes\css\responsive-recipe-detailview-photoupload.css" />
+	 <include file="..\mobile\allrecipes\css\responsive-recipe-detailview-recipesummary.css" />
+	 <include file="..\mobile\allrecipes\css\responsive-recipe-detailview-ingredients.css" />
+    <include file="..\mobile\allrecipes\css\responsive-recipe-detailview-toolbar.css" />
+    <include file="..\mobile\allrecipes\css\responsive-recipe-detailview-detailservings.css" />
+	 <include file="..\mobile\allrecipes\css\responsive-search.css" />
+	 <include file="..\mobile\allrecipes\css\responsive-stars.css" />
+    <include file="..\mobile\allrecipes\css\responsive-recipe-detailview-reviews.css" />
+    <include file="..\mobile\allrecipes\css\responsive-footer.css" />
+    <include file="..\mobile\allrecipes\css\responsive-recipebox.css" />
+	 <include file="..\mobile\allrecipes\css\responsive-shapes.css" />
+    <include file="..\mobile\allrecipes\css\holiday-hero.css" />
+	 <include file="..\mobile\allrecipes\sass\for-mobile-bundle.scss" />
+   
+  </bundle>
+  <bundle name="Mobile">
+    <include file="lib\jQuery\jquery-1.8.2.js"/>
+    <include file="lib\iscroll\iscroll.js"/>
+    <include file="..\mobile\allrecipes\global\js\Initialize-prejquery.js"/> <!-- Initialize.js MUST come between the jQuery and jQuery Mobile libraries -->
+    <include file="lib\jQuery\jquery.mobile-1.2.0.js"/>
+    <include file="..\mobile\allrecipes\global\js\fixedfooter.js" />
+    <include file="lib\jqote2\jquery.jqote2.js"/>
+    <include file="..\mobile\allrecipes\global\js\defineAR.js"/>
+    
+    <include file="..\mobile\allrecipes\Ad\js\Services.js" />
+    
+    <include file="Utilities\Logging.js" />
+    <include file="..\mobile\allrecipes\global\js\utilities.js" />
+    <include file="..\mobile\allrecipes\global\js\swipepagination.js" />
+    <include file="..\mobile\allrecipes\global\js\encoder.js" />
+    <include file="..\mobile\allrecipes\global\js\services.js" />
+
+    <include file="..\mobile\allrecipes\home\js\Initialize.js" />
+
+    <include file="..\mobile\allrecipes\account\js\Initialize.js" />
+    <include file="..\mobile\allrecipes\account\js\Services.js" />
+
+    <include file="..\mobile\allrecipes\search\js\Initialize.js" />
+    <include file="..\mobile\allrecipes\search\js\Constants.js" />
+    <include file="..\mobile\allrecipes\search\js\Actions.js" />
+    <include file="..\mobile\allrecipes\search\js\Services.js" />
+
+    <include file="..\mobile\allrecipes\hub\js\Initialize.js" />
+    <include file="..\mobile\allrecipes\hub\js\Constants.js" />
+    <include file="..\mobile\allrecipes\hub\js\Actions.js" />
+    <include file="..\mobile\allrecipes\hub\js\Services.js" />
+    
+    <include file="..\mobile\allrecipes\recipe\js\Initialize.js" />
+    <include file="..\mobile\allrecipes\recipe\js\Constants.js" />
+    <include file="..\mobile\allrecipes\recipe\js\Actions.js" />
+    <include file="..\mobile\allrecipes\recipe\js\Services.js" />
+
+    <include file="..\mobile\allrecipes\email\js\Initialize.js" />
+    <include file="..\mobile\allrecipes\email\js\Constants.js" />
+    <include file="..\mobile\allrecipes\email\js\Actions.js" />
+    <include file="..\mobile\allrecipes\email\js\Services.js" />
+
+    <include file="..\mobile\allrecipes\photo\js\Initialize.js" />
+    <include file="..\mobile\allrecipes\photo\js\Actions.js" />
+
+    <include file="..\mobile\allrecipes\My\RecipeBox\js\Initialize.js" />
+    <include file="..\mobile\allrecipes\My\RecipeBox\js\Constants.js" />
+    <include file="..\mobile\allrecipes\My\RecipeBox\js\Actions.js" />
+    <include file="..\mobile\allrecipes\My\RecipeBox\js\Services.js" />
+
+    <include file="..\mobile\allrecipes\My\ShoppingList\js\Initialize.js" />
+    <include file="..\mobile\allrecipes\My\ShoppingList\js\Constants.js" />
+    <include file="..\mobile\allrecipes\My\ShoppingList\js\Actions.js" />
+    <include file="..\mobile\allrecipes\My\ShoppingList\js\Services.js" />
+
+    <include file="..\mobile\allrecipes\Global\js\NextItemGesture.js" />
+      
+    <include file="Utilities\ClientUrlProvider.js" />
+    
+    <include file="Utilities\Ads.js" />
+    <include file="..\mobile\allrecipes\global\js\analytics.js" />
+
+    <include file="lib\jQuery-textTruncate\jquery.textTruncate.js"/>
+    
+    <include file="..\mobile\allrecipes\Video\js\Initialize.js" />
+    <include file="..\mobile\allrecipes\Video\js\Constants.js" />
+    <include file="..\mobile\allrecipes\Video\js\Actions.js" />
+    <include file="..\mobile\allrecipes\Video\js\Services.js" />
+    <include file="..\mobile\allrecipes\Video\js\Brightcove.js" />
+
+    <include file="Utilities\ua-parser.js"/>
+    
+    <!-- Global Shortcuts must be at the bottom of the list-->
+    <include file="..\mobile\allrecipes\Global\js\Constants.js" />
+    <include file="..\mobile\allrecipes\Global\js\Initialize-postjquery.js" />
+  </bundle>
+  <bundle name="mobile-bottom">
+    <include file="lib\moment\moment.js" />
+    <include file="lib\jQuery-lazyload\jquery.lazyload.js" />
+    <include file="lib\jQuery-carousel\jquery-carousel.js" />
+    <include file="lib\jQuery-carousel\jquery-carousel.pagination.js" />
+    <include file="lib\jQuery-carousel\jquery-carousel.drag.js" />
+    <include file="lib\jQuery-carousel\jquery-carousel.touch.js" />
+    <include file="..\core\library\js\pub-sub.js" />
+    <include file="..\mobile\allrecipes\Global\js\Infinite-Scroll.js" />
+    <include file="..\mobile\allrecipes\Global\js\Fallback-SVG-To-PNG.js" />
+    
+    <include file="..\mobile\allrecipes\recipe\local-offers\js\data.js" />
+    <include file="..\mobile\allrecipes\recipe\local-offers\js\deals-and-stores-ui.js" />
+    <include file="..\mobile\allrecipes\recipe\local-offers\js\error-message.js" />
+    <include file="..\mobile\allrecipes\recipe\local-offers\js\init.js" />
+    <include file="..\mobile\allrecipes\recipe\local-offers\js\splash-screen.js" />
+    <include file="..\mobile\allrecipes\recipe\local-offers\js\update-panel.js" />
+    <include file="..\mobile\allrecipes\recipe\local-offers\js\analytics.js" />
+    
+    <include file="..\mobile\allrecipes\recipe\js\rate-review.js" />
+    <include file="..\mobile\allrecipes\recipe\js\toolbar.js" />
+    <include file="..\mobile\allrecipes\recipe\js\similar-recipe.js" />
+    
+    <include file="..\mobile\allrecipes\service\js\recipe.js" />
+    <include file="..\mobile\allrecipes\service\js\recipebox.js" />
+    <include file="..\mobile\allrecipes\service\js\shoppinglist.js" />
+    <include file="..\mobile\allrecipes\service\js\photo.js" />
+    <include file="..\mobile\allrecipes\recipe\js\ingredient.js" />
+    
+  </bundle>
+  <bundle name="secure-site">
+    <include file="jQuery\defineAR.js"/>
+    <include file="lib\jquery-validate\jquery.validate.js"/>
+    <include file="Controls\spinner.js"/>
+    <include file="jQuery\payfunnel.js"/>
+    <include file="jQuery\settingspage.js"/>
+  </bundle>
+
+  <bundle name="countdown">
+    <include file="jQuery\defineAR.js"/>
+    <include file="lib\jQuery\jquery-1.8.2.js"/>
+    <include file="lib\json2\json2.js"/>
+    <include file="lib\JsfIoc\JsfIoc.js"/>
+    <include file="..\core\library\js\AdDfpTags.js" />
+    <include file="jQuery\main.js"/>
+    <include file="jQuery\AnalyticsProperties.js"/>
+    <include file="jQuery\AnalyticsMethods.js"/>
+    <include file="Utilities\AdSuppress.js"/>
+    <include file="Utilities\Logging.js"/>
+    <include file="lib\jQuery-textTruncate\jquery.textTruncate.js"/>
+    <include file="lib\jqote2\jquery.jqote2.js"/>
+    <include file="lib\jqote2-template-loader\jqote2-template-loader.js"/>
+    <include file="Utilities\Ads.js"/>
+    <include file="jQuery\TabBlocker.js"/>
+      <include file="..\core\nav\js\MainNav.js"/>
+      <include file="..\core\nav\js\PredictiveSearch.js"/>
+      <include file="..\core\nav\js\Search.js"/>
+    <include file="client.js"/>
+    <include file="..\core\library\js\Utilities.js"/>
+    <include file="..\core\countdown\cookie\js\countdown2012-data.json.js"/>
+    <include file="..\core\countdown\cookie\js\countdown2012.js" />
+  </bundle>
+
+  <bundle name="countdown_comfortfood2013">
+    <include file="jQuery\defineAR.js"/>
+    <include file="lib\jQuery\jquery-1.8.2.js"/>
+    <include file="lib\json2\json2.js"/>
+    <include file="lib\JsfIoc\JsfIoc.js"/>
+    <include file="..\core\library\js\AdDfpTags.js" />
+    <include file="jQuery\main.js"/>
+    <include file="jQuery\AnalyticsProperties.js"/>
+    <include file="jQuery\AnalyticsMethods.js"/>
+    <include file="Utilities\AdSuppress.js"/>
+    <include file="Utilities\Logging.js"/>
+    <include file="lib\jQuery-textTruncate\jquery.textTruncate.js"/>
+    <include file="lib\jqote2\jquery.jqote2.js"/>
+    <include file="lib\jqote2-template-loader\jqote2-template-loader.js"/>
+    <include file="Utilities\Ads.js"/>
+    <include file="jQuery\TabBlocker.js"/>
+      <include file="..\core\nav\js\MainNav.js"/>
+      <include file="..\core\nav\js\PredictiveSearch.js"/>
+      <include file="..\core\nav\js\Search.js"/>
+    <include file="client.js"/>
+    <include file="..\core\library\js\Utilities.js"/>
+    <include file="..\core\countdown\ComfortFood\js\countdown2013-data.json.js"/>
+    <include file="..\core\countdown\ComfortFood\js\countdown2013.js" />
+  </bundle>
+
+  <bundle name="countdown_pie2013">
+    <include file="jQuery\defineAR.js"/>
+    <include file="lib\jQuery\jquery-1.8.2.js"/>
+    <include file="lib\json2\json2.js"/>
+    <include file="lib\JsfIoc\JsfIoc.js"/>
+    <include file="..\core\library\js\AdDfpTags.js" />
+    <include file="jQuery\main.js"/>
+    <include file="jQuery\AnalyticsProperties.js"/>
+    <include file="jQuery\AnalyticsMethods.js"/>
+    <include file="Utilities\AdSuppress.js"/>
+    <include file="Utilities\Logging.js"/>
+    <include file="lib\jQuery-textTruncate\jquery.textTruncate.js"/>
+    <include file="lib\jqote2\jquery.jqote2.js"/>
+    <include file="lib\jqote2-template-loader\jqote2-template-loader.js"/>
+    <include file="Utilities\Ads.js"/>
+    <include file="jQuery\TabBlocker.js"/>
+      <include file="..\core\nav\js\MainNav.js"/>
+      <include file="..\core\nav\js\PredictiveSearch.js"/>
+      <include file="..\core\nav\js\Search.js"/>
+    <include file="client.js"/>
+    <include file="..\core\library\js\Utilities.js"/>
+    <include file="..\core\countdown\pie\js\countdown2013-data.json.js"/>
+    <include file="..\core\countdown\pie\js\countdown2013.js" />
+  </bundle>    
+        
+    <bundle name="newsletter" type="css">
+        <include file="..\css2009\core.css" />
+        <include file="..\core\nav\css\rightrailmodules.css"/>
+        <include file="..\core\nav\css\mainNav.css"/>      
+        <include file="..\core\library\css\notifications.css" />
+        <include file="..\core\newsletter\css\unsubscribe.css" />
+  </bundle>
+  <bundle name="hub-page" type="css">
+    <include file="lib\jQuery-carousel\jquery-carousel.css" />
+    <include file="..\core\carousel\css\carousel.css" />>
+    <include file="..\core\carousel\css\layout.css" />
+    <include file="..\core\carousel\css\hero-slide.css" />
+    <include file="..\css2009\ListStyles.css" />
+    <include file="..\core\hub\css\list-grid-views.css" />
+    <include file="..\core\hub\css\header.css" />
+    <include file="..\core\hub\css\navigation.css" />
+	 <include file="..\core\hub\css\showcase.css" />
+    <include file="..\core\hub\css\minimaxiscrolls.css" />
+      <include file="..\core\logoscroller\css\LogoScroller.css" />
+  </bundle>
+  <bundle name="home-page" type="css">
+    <include file="lib\jQuery-carousel\jquery-carousel.css" />    
+    <include file="..\core\carousel\css\carousel.css" />>
+    <include file="..\core\carousel\css\layout.css" />   
+    <include file="..\core\carousel\css\hero-slide.css" />
+    <include file="..\core\homepage\css\home-page.css" />
+    <include file="..\core\homepage\css\recommendations.css" />
+    <include file="..\core\hub\css\showcase.css" />
+    <include file="..\core\homepage\css\hpwidgets.css" />
+      <include file="..\core\homepage\css\pintereststyles.css" />
+  </bundle>
+  <bundle name="connect-mvc-css" type="css">
+    <include file="..\connect\css\site.css" />
+    <include file="..\connect\css\button.css" />
+    <include file="..\connect\css\account.css" />
+  </bundle>
+  <bundle name="connect-mvc-jquery">
+    <include file="lib\jQuery\jquery-1.8.2.js"/>
+    <include file="lib\jQuery-textTruncate\jquery.textTruncate.js"/>
+    <include file="..\connect\js\jquery\plugins\jquery.watermark.min.js"/>
+  </bundle>
+  <bundle name="connect-mvc-js">
+    <include file="..\connect\js\button\main.js"/>
+    <include file="..\connect\js\account\account.js"/>
+  </bundle>
+  
+  <!-- Publicly accessible plugin scripts -->
+  <!-- Note: There is nothing inherently special about vX.X. A v1.2 script could include v1.0\common.js -->
+  <bundle name="plugins/ar-button-1.0.0">
+    <include file="..\connect\js\plugins\v1.0\common.js"/>
+    <include file="..\connect\js\plugins\v1.0\ar-button.js"/>
+  </bundle>
+  <bundle name="plugins/toolbox-1.2.0">
+    <include file="..\connect\js\plugins\v1.2\ar-toolbox.js"/>
+  </bundle>
+</bundles>
+

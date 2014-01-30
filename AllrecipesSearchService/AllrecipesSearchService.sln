@@ -1,0 +1,115 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllrecipesSearchService", "AllrecipesSearchService\AllrecipesSearchService.csproj", "{0C90BEA4-3F15-461C-848E-7706DD782CC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{15DE4893-5C40-4660-B21C-BC711098BC70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allrecipes Library", "..\..\Libraries\Allrecipes\Allrecipes\Allrecipes Library.csproj", "{0760BBF2-1294-49A5-8CFE-24DE33226989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allrecipes.DataAccess", "..\..\Libraries\Allrecipes.DataAccess\Allrecipes.DataAccess\Allrecipes.DataAccess.csproj", "{3D8E498B-4FAF-4301-B1C3-A32FB6506BE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allrecipes.Solr", "..\..\Libraries\Allrecipes.Solr\Allrecipes.Solr\Allrecipes.Solr.csproj", "{AD3FBE78-3F95-4193-A0EA-C0E79DE034C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allrecipes.Data", "..\..\Libraries\Allrecipes.Data\Allrecipes.Data\Allrecipes.Data.csproj", "{776F9F49-18D5-4721-B522-047B36F7F504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllrecipesTest", "..\..\Tests\AllrecipesTest\AllrecipesTest.csproj", "{FF6FEE35-C2C3-45C5-B78E-A0AB788CD61A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allrecipes.Tests.Unit", "..\..\Tests\Unit\Allrecipes.Tests.Unit\Allrecipes.Tests.Unit.csproj", "{E42DC330-05CC-4294-8549-463A7F91478C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allrecipes.Tests.Integration", "..\..\Tests\Integration\Allrecipes.Tests.Integration\Allrecipes.Tests.Integration.csproj", "{E5E4E69E-C9EC-40AF-A9AA-02F631739E3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allrecipes.Solr.Tests", "..\..\Libraries\Allrecipes.Solr\Allrecipes.Solr.Tests\Allrecipes.Solr.Tests.csproj", "{B9C7DB8D-88C9-4082-8B40-3B824849A35E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs-vm.allrecipes.corp:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AllrecipesSearchService\\AllrecipesSearchService.csproj
+		SccProjectName1 = AllrecipesSearchService
+		SccLocalPath1 = AllrecipesSearchService
+		SccProjectUniqueName2 = ..\\..\\Libraries\\Allrecipes\\Allrecipes\\Allrecipes\u0020Library.csproj
+		SccProjectTopLevelParentUniqueName2 = AllrecipesSearchService.sln
+		SccProjectName2 = ../../Libraries/Allrecipes/Allrecipes
+		SccLocalPath2 = ..\\..\\Libraries\\Allrecipes\\Allrecipes
+		SccProjectUniqueName3 = ..\\..\\Libraries\\Allrecipes.DataAccess\\Allrecipes.DataAccess\\Allrecipes.DataAccess.csproj
+		SccProjectTopLevelParentUniqueName3 = AllrecipesSearchService.sln
+		SccProjectName3 = ../../Libraries/Allrecipes.DataAccess/Allrecipes.DataAccess
+		SccLocalPath3 = ..\\..\\Libraries\\Allrecipes.DataAccess\\Allrecipes.DataAccess
+		SccProjectUniqueName4 = ..\\..\\Libraries\\Allrecipes.Solr\\Allrecipes.Solr\\Allrecipes.Solr.csproj
+		SccProjectTopLevelParentUniqueName4 = AllrecipesSearchService.sln
+		SccProjectName4 = ../../Libraries/Allrecipes.Solr/Allrecipes.Solr
+		SccLocalPath4 = ..\\..\\Libraries\\Allrecipes.Solr\\Allrecipes.Solr
+		SccProjectUniqueName5 = ..\\..\\Libraries\\Allrecipes.Data\\Allrecipes.Data\\Allrecipes.Data.csproj
+		SccProjectTopLevelParentUniqueName5 = AllrecipesSearchService.sln
+		SccProjectName5 = ../../Libraries/Allrecipes.Data/Allrecipes.Data
+		SccLocalPath5 = ..\\..\\Libraries\\Allrecipes.Data\\Allrecipes.Data
+		SccProjectUniqueName6 = ..\\..\\Tests\\AllrecipesTest\\AllrecipesTest.csproj
+		SccProjectName6 = ../../Tests/AllrecipesTest
+		SccLocalPath6 = ..\\..\\Tests\\AllrecipesTest
+		SccProjectUniqueName7 = ..\\..\\Tests\\Unit\\Allrecipes.Tests.Unit\\Allrecipes.Tests.Unit.csproj
+		SccProjectName7 = ../../Tests/Unit/Allrecipes.Tests.Unit
+		SccLocalPath7 = ..\\..\\Tests\\Unit\\Allrecipes.Tests.Unit
+		SccProjectUniqueName8 = ..\\..\\Tests\\Integration\\Allrecipes.Tests.Integration\\Allrecipes.Tests.Integration.csproj
+		SccProjectName8 = ../../Tests/Integration/Allrecipes.Tests.Integration
+		SccLocalPath8 = ..\\..\\Tests\\Integration\\Allrecipes.Tests.Integration
+		SccProjectUniqueName9 = ..\\..\\Libraries\\Allrecipes.Solr\\Allrecipes.Solr.Tests\\Allrecipes.Solr.Tests.csproj
+		SccProjectTopLevelParentUniqueName9 = AllrecipesSearchService.sln
+		SccProjectName9 = ../../Libraries/Allrecipes.Solr/Allrecipes.Solr.Tests
+		SccLocalPath9 = ..\\..\\Libraries\\Allrecipes.Solr\\Allrecipes.Solr.Tests
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C90BEA4-3F15-461C-848E-7706DD782CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C90BEA4-3F15-461C-848E-7706DD782CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C90BEA4-3F15-461C-848E-7706DD782CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C90BEA4-3F15-461C-848E-7706DD782CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0760BBF2-1294-49A5-8CFE-24DE33226989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0760BBF2-1294-49A5-8CFE-24DE33226989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0760BBF2-1294-49A5-8CFE-24DE33226989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0760BBF2-1294-49A5-8CFE-24DE33226989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D8E498B-4FAF-4301-B1C3-A32FB6506BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D8E498B-4FAF-4301-B1C3-A32FB6506BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D8E498B-4FAF-4301-B1C3-A32FB6506BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D8E498B-4FAF-4301-B1C3-A32FB6506BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD3FBE78-3F95-4193-A0EA-C0E79DE034C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3FBE78-3F95-4193-A0EA-C0E79DE034C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3FBE78-3F95-4193-A0EA-C0E79DE034C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3FBE78-3F95-4193-A0EA-C0E79DE034C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{776F9F49-18D5-4721-B522-047B36F7F504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776F9F49-18D5-4721-B522-047B36F7F504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776F9F49-18D5-4721-B522-047B36F7F504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776F9F49-18D5-4721-B522-047B36F7F504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6FEE35-C2C3-45C5-B78E-A0AB788CD61A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6FEE35-C2C3-45C5-B78E-A0AB788CD61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6FEE35-C2C3-45C5-B78E-A0AB788CD61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6FEE35-C2C3-45C5-B78E-A0AB788CD61A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E42DC330-05CC-4294-8549-463A7F91478C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42DC330-05CC-4294-8549-463A7F91478C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42DC330-05CC-4294-8549-463A7F91478C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42DC330-05CC-4294-8549-463A7F91478C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E4E69E-C9EC-40AF-A9AA-02F631739E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E4E69E-C9EC-40AF-A9AA-02F631739E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E4E69E-C9EC-40AF-A9AA-02F631739E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E4E69E-C9EC-40AF-A9AA-02F631739E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9C7DB8D-88C9-4082-8B40-3B824849A35E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C7DB8D-88C9-4082-8B40-3B824849A35E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C7DB8D-88C9-4082-8B40-3B824849A35E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C7DB8D-88C9-4082-8B40-3B824849A35E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0760BBF2-1294-49A5-8CFE-24DE33226989} = {15DE4893-5C40-4660-B21C-BC711098BC70}
+		{3D8E498B-4FAF-4301-B1C3-A32FB6506BE7} = {15DE4893-5C40-4660-B21C-BC711098BC70}
+		{AD3FBE78-3F95-4193-A0EA-C0E79DE034C1} = {15DE4893-5C40-4660-B21C-BC711098BC70}
+		{776F9F49-18D5-4721-B522-047B36F7F504} = {15DE4893-5C40-4660-B21C-BC711098BC70}
+		{B9C7DB8D-88C9-4082-8B40-3B824849A35E} = {15DE4893-5C40-4660-B21C-BC711098BC70}
+	EndGlobalSection
+EndGlobal

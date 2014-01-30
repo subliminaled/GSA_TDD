@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Web Sites -->
+  <webSites>
+    <webSite name="Allrecipes">
+      <baseUrl>http://ec.allrecipes.com</baseUrl>
+    </webSite>
+    <webSite name="Mobile">
+      <baseUrl>http://m.allrecipes.com</baseUrl>
+    </webSite>
+    <webSite name="RSS">
+      <baseUrl>http://rss.allrecipes.com</baseUrl>
+    </webSite>
+    <webSite name="Secure">
+      <baseUrl>https://secure.allrecipes.com</baseUrl>
+    </webSite>
+  </webSites>
+  <!-- Services -->
+  <services>
+    <!-- ASMX Services -->
+    <service name="Allrecipes.CommerceService.CommerceProvider">
+      <address>http://ec.membershipservice.allrecipes.com/CommerceProvider.asmx</address>
+    </service>
+    <!-- WCF Services -->
+    <service name="Allrecipes.Web.Services.Contracts.IAccessControlProvider">
+      <address>http://ec.membershipservice.allrecipes.com/AccessControlProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IAdminProvider">
+      <address>http://ec.service.allrecipes.com/AdminProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IArticleProvider">
+      <address>http://ec.service.allrecipes.com/ArticleProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.ICookProvider">
+      <address>http://ec.service.allrecipes.com/CookProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IMessageBoardProvider">
+      <address>http://ec.service.allrecipes.com/MessageBoardProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IRecipeProvider">
+      <address>http://ec.service.allrecipes.com/RecipeProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IRecipeBoxProvider">
+      <address>http://ec.service.allrecipes.com/RecipeBoxProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IServerStatusProvider">
+      <address>http://apps.allrecipes.corp/serverstatus/ServerStatusProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IUserPhotoProvider">
+      <address>http://ec.userphotoservice.allrecipes.com/UserPhotoProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IShoppingListProvider">
+      <address>http://ec.service.allrecipes.com/ShoppingListProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IReviewProvider">
+      <address>http://ec.service.allrecipes.com/ReviewProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IWebScraper">
+      <address>http://ec.webscraperservice.allrecipes.com/WebScraper.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.ISearchProvider">
+      <address>http://ec.searchservice.allrecipes.com/SearchProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.ICoRegProvider">
+      <address>http://ec.membershipservice.allrecipes.com/CoRegProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IMenuProvider">
+      <address>http://ec.service.allrecipes.com/MenuProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IVideoProvider">
+      <address>http://ec.service.allrecipes.com/VideoProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IStatisticProvider">
+      <address>http://ec.service.allrecipes.com/StatisticProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.ICollectionProvider">
+      <address>http://ec.service.allrecipes.com/CollectionProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IMerchProvider">
+      <address>http://ec.service.allrecipes.com/MerchProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IPostProvider">
+      <address>http://ec.service.allrecipes.com/PostProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IHubProvider">
+      <address>http://ec.service.allrecipes.com/HubProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IUserPhotoDataProvider">
+      <address>http://ec.service.allrecipes.com/UserPhotoDataProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IMiscellaneousProvider">
+      <address>http://ec.service.allrecipes.com/MiscellaneousProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.IShowcaseProvider">
+      <address>http://ec.service.allrecipes.com/ShowcaseProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.INewsletterProvider">
+      <address>http://ec.service.localhost.allrecipes.corp/NewsletterProvider.svc</address>
+    </service>
+    <service name="Allrecipes.Web.Services.Contracts.INotificationProvider">
+      <address>http://ec.service.localhost.allrecipes.corp/NotificationProvider.svc</address>
+    </service>
+  </services>
+  <!-- Settings -->
+  <settings>
+  </settings>
+</configuration>
